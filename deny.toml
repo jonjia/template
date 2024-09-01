@@ -142,6 +142,13 @@ registries = [
     #"https://sekretz.com/registry
 ]
 
+[[licenses.clarify]]
+crate = "template"
+expression = "MIT"
+license-files = [
+    { path = "LICENSE", hash = 0x049d7e26 },
+]
+
 # This section is considered when running `cargo deny check bans`.
 # More documentation about the 'bans' section can be found here:
 # https://embarkstudios.github.io/cargo-deny/checks/bans/cfg.html
